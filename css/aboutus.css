@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8d6ea7b8;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+
+h1 {
+    margin: 0;
+}
+.section1{
+    /* background: url(/media/photos/park.jpg); */
+    width: 95vw;
+    background-size: cover;
+    background-position: top;
+    margin: 51px auto;
+    background-repeat: no-repeat;
+   
+}
+.content {
+    width: 95vw;
+    /* height: 50vh; */
+    /* background: url(/media/photos/snow.jpg);
+    /* background: linear-gradient(45deg, rgb(145, 14, 220), rgb(128 100 153)); */
+   /* background-size: cover;
+    background-position: center; */
+    backdrop-filter: blur(2px);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 51px auto;
+    padding-top: 11vh;
+}
+
+/*CONTAINER 1 STARTED*/
+.container1{
+    /* background-color: blue; */
+}
+.first_title{
+    font-size: 44px;
+    display: contents;
+    color: black;
+    font-weight: bolder;
+}
+.container1 .sec_title{
+    letter-spacing: 1px;
+    font-size: 32px;
+    margin-left: 1em;
+}
+
+.container1 ol {
+    list-style: none;
+    margin-left: 85px;
+    /* position: absolute; */
+}
+.container1 ol li{
+border-left: 2px solid black;
+}
+.container1 .pack{
+    margin: 4px;
+    position: absolute;
+    left: 33%;
+}
+
+
+/*CONTAINER 2 STARTED*/
+.container2{
+    /* background-color: red; */
+}
+.container2 img{
+    
+width: 255px;
+}
+
+footer {
+    background-color: #8d6ea7b8;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.section2{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubantu',sans-serif;
+}
+.paras{
+    padding: 0px 65px;
+}
+.sectionsubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

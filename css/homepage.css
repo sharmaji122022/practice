@@ -1,0 +1,248 @@
+* {
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8d6ea7b8;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+h2 {
+    color: #000000;
+    margin: 21px 3px 15px 0px;
+    text-align: center;
+    font-weight: 800;
+    font-size: -webkit-xxx-large;
+}
+
+.navbar {
+    margin: 32px 0px 30px 0px;
+    padding: 14px;
+    border-radius: 40px;
+    display: flex;
+    top: 0%;
+    position: sticky;
+    justify-content: space-around;
+    background: linear-gradient(45deg, rgb(145, 14, 220), rgb(128 100 153));
+    z-index: 1;
+   
+}
+
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none;
+
+}
+
+a:hover{
+    background-color: rgb(0 0 0 / 17%);
+    border: 2px solid rgba(117, 41, 187, 0.875);
+    backdrop-filter: blur(20px); 
+    border-radius: 33px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;;
+}
+.div1 {
+    background: linear-gradient(45deg, #a048ac8f, #8321c1);
+    width: 80%;
+    padding: 5px;
+    margin: 1px auto 82px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.f1 {
+    background-position: center;
+    margin: 34px 2px 70px 0px;
+    max-width: 22%;
+}
+
+H3 {
+    text-align: center;
+    font-weight: 800;
+    font-family: sans-serif;
+    padding: 153px 4px;
+}
+
+.m1 {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+
+.div2 {
+    background: #f9f3f3;
+
+
+    height: 100%;
+    width: 90%;
+    padding: 10px 12px 43px 12px;
+    margin: 0px 4px 80px 78px;
+
+}
+
+h4 {
+    text-align: center;
+
+}
+
+.ABUL {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-image: url(/media/tree.JPG);
+}
+
+#para {
+
+    margin: 10px;
+    padding: 20px;
+    color: #811dd6d9;
+    text-align: justify;
+
+}
+
+.para img {
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+.para {    background-color: #1f1d1d1d;
+    border-right: 4px solid #1f1d1d;
+    border-bottom: 2px solid #1f1d1d;
+    display: grid;
+    margin: 64px auto;
+    border-radius: 12px;
+    width: auto;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.works {
+    background: linear-gradient(45deg, #a048ac8f, #8321c1);
+    text-align: justify;
+    color: white;
+    border-radius: 50px;
+    padding: 45px;
+    width: 71%;
+    margin: 41px auto;
+}
+
+.works h1 {
+    text-align: center;
+}
+
+.works p {
+    text-align: center;
+}
+
+section img {
+    width: 100vw;
+    margin: auto;
+    
+}
+h2{ text-align: center;
+    padding: 20px;
+ }
+ 
+ .sec{ 
+    /* min-height: 100vh;
+ } */}
+.sec h2{
+   border: 10lvh;
+ }
+ 
+  .sec a img{
+  width: 10%;
+  display:block;
+     }
+ 
+ footer{
+    background-color: #333;
+    overflow: hidden;
+ }
+ footer a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+ }
+.section_links{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    margin: auto; */
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.founder_image{
+    width: 20vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+@media (max-width:1024px) and (min-width:10px) {
+    .para {
+        flex-direction: column;
+        border: 1px solid black;
+        display: flex;
+        margin: 64px auto;
+        border-radius: 12px;
+        /* width: 86%; */
+    }
+
+    h3 {
+        text-align: center;
+        font-weight: 800;
+        font-family: sans-serif;
+        padding: 41px;
+    }
+
+    .f1 {
+        display: block;
+        background-position: center;
+        margin: auto;
+        max-width: 54%;
+    }
+
+    .div1 {
+        background: linear-gradient(45deg, #a048ac8f, #8321c1);
+        width: 80%;
+        padding: 5px;
+        margin: 1px auto 82px;
+        border-radius: 90px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        margin: 20px auto;
+        padding: 14px;
+        border-radius: 40px;
+        display: flex;
+        top: 0%;
+        position: sticky;
+        justify-content: space-around;
+        background: linear-gradient(to bottom, rgb(144 14 220 / 79%), rgb(128 100 153)), url(/media/sky1.JPG);
+        backdrop-filter: greyscale(2px);
+
+    }
+}

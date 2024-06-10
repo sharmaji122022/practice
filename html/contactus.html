@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Notes Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #4CAF50;
+        }
+        .services {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .services h2 {
+            color: #333;
+        }
+        .services p {
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contactForm" action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <div class="services">
+            <h2>Our Services</h2>
+            <p>We provide the best hand-written notes for students to help them in their studies. Our notes cover a wide range of subjects and topics, ensuring comprehensive assistance for students at all levels of education.</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the form from submitting
+
+            // You can handle form submission here, e.g., send data to server using AJAX
+            // For demonstration purposes, let's just log the form data
+            const formData = new FormData(event.target);
+            const formDataObject = {};
+            formData.forEach((value, key) => {
+                formDataObject[key] = value;
+            });
+            console.log("Form Data:", formDataObject);
+            
+            // You can also add code here to display a success message or handle errors
+        });
+    </script>
+</body>
+</html>

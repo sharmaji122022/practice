@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+  
+    background-color: #8d6ea7b8;
+}
+
+.notes_here { 
+/*     background: linear-gradient(22deg, #b900ff, #c9a4ce, purple); */
+    font-size: 10vh;
+    text-align: center;
+    margin: 2px;
+    border-radius: 40px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    background: linear-gradient(45deg, #796b77ec, #4c157ed0);
+    width: 258px;
+    padding: 10px;
+    /* height: 322px; */
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+    justify-items: center;
+    font-weight: 100;
+    margin: 20px;
+
+}
+.container:hover {
+    transition: all 0.1s cubic-bezier(0.8, 0.01, 0.3, 0.99) 0.1s;
+    /* width: 252px; */
+    /* height: 364px; */
+    padding: 20px;
+    border: 2px solid #d1c8dede;
+}
+.card {
+    border-radius: 20px;
+    /* background: linear-gradient(#b81de3ec,#8648c0d0,#790beede); */
+    height: 70vh;
+    width: 98vw;
+    margin: 8px 2px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img img {
+    width: 236px;
+}
+
+.text {
+    font-weight: 100;
+}
+.button{
+    padding-top:5px
+}
+.button:hover{
+    padding-top:6px;
+    transition: padding 0.5s ease-in-out 1s;
+}
+.download-btn {
+    display: block;
+    width: 100%;
+    padding: 9px;
+    background: linear-gradient(45deg, #18007a8f, #370f7a94, #571a76c8);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    transition: padding 0.1ms ease-in-out 0.1ms;
+    background:linear-gradient(45deg,#a769b08f, #0056b3, #7816b5c8);
+}
+
+.title {
+   border: 1px solid #ac80c8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 30px;
+    margin: 37px auto;
+    max-width: 98vw;
+    /* max-height: 129vh; */
+    background: linear-gradient(#b81de3ec, #8648c0d0, #790beede);
+}
+
+.bca_2 {text-align: center;
+    margin: 17px auto 0px;
+    padding: 14px 0px 0px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: 8vh;
+    flex-direction: column;
+    align-content: space-around;
+}
+.main{
+    display: flex;
+}
