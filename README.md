@@ -1,3 +1,3 @@
 # practice
 first repositry 
-Author - Aditya sharma
+Author - Aditya sharma( okimr kota)
